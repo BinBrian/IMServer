@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/liblibmodel.a CMakeFiles/libmodel.dir/FriendModel.cpp.o CMakeFiles/libmodel.dir/GroupModel.cpp.o CMakeFiles/libmodel.dir/OfflineMessageModel.cpp.o CMakeFiles/libmodel.dir/UserModel.cpp.o
-/usr/bin/ranlib ../lib/liblibmodel.a

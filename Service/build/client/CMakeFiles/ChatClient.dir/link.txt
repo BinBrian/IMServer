@@ -1,1 +1,0 @@
-g++ -g -rdynamic CMakeFiles/ChatClient.dir/main.cpp.o -o /home/brian/WorkSpace/IMServer/Service/bin/ChatClient  ../lib/liblibservice.a -lpthread -lrt ../lib/liblibmyredis.a -lhiredis ../lib/liblibmodel.a -lmysqlclient 
