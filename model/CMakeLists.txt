@@ -1,5 +1,3 @@
-
-
 aux_source_directory(. MODEL_SRC_FILES)
 
 add_library(

@@ -7,10 +7,10 @@
 
 using namespace std;
 
-#define SERVER "127.0.0.1"
-#define USER "ik"
-#define PASSWORD "123456"
-#define DBNAME "chat"
+#define SERVER   "127.0.0.1"
+#define USER     "root"
+#define PASSWORD "mysql"
+#define DBNAME   "chat"
 
 class MySQL
 {
@@ -42,7 +42,8 @@ public:
         }
         else
         {
-            LOG_INFO << "connect mysql fail!";
+            LOG_ERROR << "connect mysql fail! " << mysql_error(conn_);
+            // LOG_INFO << "connect mysql fail!";
         }
 
         return p;
