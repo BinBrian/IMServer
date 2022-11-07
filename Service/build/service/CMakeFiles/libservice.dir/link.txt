@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/liblibservice.a CMakeFiles/libservice.dir/ChatService.cpp.o
+/usr/bin/ranlib ../lib/liblibservice.a
