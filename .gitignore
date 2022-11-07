@@ -33,6 +33,9 @@
 
 # build directory
 build/*
+
+# bin directory
+bin/*
 .build/
 !build/build.xml
 
